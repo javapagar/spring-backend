@@ -21,4 +21,35 @@ public class ClienteServiceImpl implements IClienteService{
 		return (List<Cliente>) clienteRepository.findAll();
 	}
 
+	@Override
+	public Cliente findById(Long id) {
+		return clienteRepository.findById(id).orElse(null);
+	}
+
+	@Override
+	public Cliente save(Cliente cliente) {
+		return clienteRepository.save(cliente);
+	}
+
+	@Override
+	public void delete(Long id) {
+		clienteRepository.deleteById(id);
+		
+	}
+
+	@Override
+	public Cliente update(Cliente clienteModificado, Long id) {
+		Cliente clienteActual = clienteRepository.findById(id).orElse(null);
+		
+		if(clienteActual ==null ) {
+			return null;
+		}
+		
+		clienteActual.setNombre(clienteModificado.getNombre());
+		clienteActual.setApellido(clienteModificado.getApellido());
+		clienteActual.setEmail(clienteModificado.getEmail());
+		
+		return clienteRepository.save(clienteActual);
+	}
+
 }
