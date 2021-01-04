@@ -1,0 +1,10 @@
+INSERT INTO clientes (nombre, apellido, email, create_at) values ('Javier', 'Aparicio' , 'corre@gmail.com', '2021-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) values ('Oscar', 'Freire' , 'corre@gmail.com', '2021-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) values ('Ibon', 'Zugasti' , 'corre@gmail.com', '2021-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) values ('Lance', 'Amstrong' , 'corre@gmail.com', '2021-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) values ('Miguel', 'Indurain' , 'corre@gmail.com', '2021-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) values ('Mikel', 'Landa' , 'corre@gmail.com', '2021-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) values ('Tinker', 'Juarez' , 'corre@gmail.com', '2021-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) values ('Tommi', 'Misser' , 'corre@gmail.com', '2021-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) values ('Alberto', 'Cotador' , 'corre@gmail.com', '2021-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) values ('Marga', 'Fulana' , 'corre@gmail.com', '2021-01-01');
